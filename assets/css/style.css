@@ -27,6 +27,84 @@
 	 text-align: center; 
 	margin-top: 35%;
 }
+.main-nav {
+	display: grid;
+	grid-template-columns: auto;
+	padding: 2%;
+	background-color: #ccc;
+	color: #888;
+}
+.main-nav  ul{
+	list-style-type: none;
+	text-align: center;
+}
+.main-nav ul li{
+	display: inline;
+}
+.main-nav ul li a:link{
+	padding: 2%;
+	color: green;
+}
+
+.main-nav ul li a:visited{
+	color: green;
+}
+.main-nav ul li a:hover {
+	color: yellow;
+	background-color: #000000;
+	border-right: 4px solid yellow;
+	border-left: 4px solid yellow;
+}
+.main-nav ul li a:active{
+	color: white;
+	background-color: lightpink;
+}
+.hero-section{
+	display: grid;
+	grid-template-columns: auto;
+	padding: 20%;
+	background-image: url('../images/header-hero.jpg');
+	background-size: cover;
+	text-align: center;
+}
+.main-body{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.body-items{
+	padding: 4%;
+	text-align: justify;
+}
+.testimonials-section{
+	background-image: url('../images/testimonials-mirror.png');
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-size: cover;
+	background-position: center;
+}
+.testimonials-heading {
+	display: grid;
+	grid-template-columns: auto;
+	content: "";
+	padding: 4%;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: center;
+}
+.testimonials-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10%;
+}
+.main-footer {
+	display: grid;
+	grid-template-columns: auto;
+	text-align: center;
+	padding: 40%;
+	background-color: #000;
+	color: #fff;
+}
+
 @media only screen and (max-width: 500px){
 	.grid-header{
 		display: block;
