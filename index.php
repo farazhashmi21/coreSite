@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>Core Site</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-</head>
-<body onLoad = "displ();">
-	<!-- Header Start -->
-<div class="grid-header">
-	<div class="grid-items-header">
-		<p id="logoElement">cS</p>
-	</div>
-	<div class="grid-items-header" id="logo-grid-span">
-		<h1>Core Site</h1>
-		<p>Clogan</p>
-	</div>
-</div>
-<!-- Header End -->
-<!-- Navigation File Add Start -->
 <?php
-  require('main-nav-links.php');
+$header_file = "header.php";
+$footer_file = "footer.php";
+require($header_file);
 ?>
-<!-- Navigation File Add End -->
-<!-- Hero Section Start -->
-<div class="hero-section">
-	<h2>Core Site</h2>
-</div>
-<!-- Hero Section End -->
 <!-- Main Body Section Start -->
 <div class="main-body">
 	<div class="body-items">
@@ -77,12 +52,6 @@
 	</div>
 </div>
 <!-- Testimonials Section End -->
-<!-- Footer Section Starts -->
-<footer class="main-footer">
-<p>&#169; - Copyright - <script>document.write(new Date().getFullYear());</script></p>	
-<p><a href="https://codepen.io/collection/MgEeLW/" title="https://codepen.io/collection/MgEeLW">Collection</a> Of The Developer <q>Engr. Faraz Hashmi</q></p>
-</footer>
-<!-- Footer Section Ends -->
-<script type="text/javascript" src="assets/js/functions.js"></script>
-</body>
-</html>
+<?php
+require($footer_file);
+?>
