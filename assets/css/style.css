@@ -104,6 +104,19 @@
 	background-color: #000;
 	color: #fff;
 }
+.body-items.body-items-image > img {
+	width: 400px;
+	padding: 0 20px 0 0;
+	height: 100%;
+}
+.body-text-padding {
+	padding: 10% 0 0 4%;
+}
+
+.grid-item-two {
+	color: #000;
+	background-color: aliceblue;
+}
 
 @media only screen and (max-width: 500px){
 	.grid-header{
