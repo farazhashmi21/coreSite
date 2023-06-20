@@ -22,7 +22,7 @@
 <div class="main-nav">
 	<ul>
 		<li><a href="#" title="Homepage">Home</a></li>
-		<li><a href="#" title="Aboutpage">About</a></li>
+		<li><a href="about-us.php" title="Aboutpage">About</a></li>
 		<li><a href="#" title="Servicespage">Services</a></li>
 		<li><a href="#" title="Productspage">Products</a></li>
 		<li><a href="#" title="Blogpage">Blog</a></li>
