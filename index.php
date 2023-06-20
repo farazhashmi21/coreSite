@@ -18,18 +18,11 @@
 	</div>
 </div>
 <!-- Header End -->
-<!-- Navigation Start -->
-<div class="main-nav">
-	<ul>
-		<li><a href="#" title="Homepage">Home</a></li>
-		<li><a href="about-us.php" title="Aboutpage">About</a></li>
-		<li><a href="#" title="Servicespage">Services</a></li>
-		<li><a href="#" title="Productspage">Products</a></li>
-		<li><a href="#" title="Blogpage">Blog</a></li>
-		<li><a href="#" title="Contactpage">Contact</a></li>
-	</ul>
-</div>
-<!-- Navigation End -->
+<!-- Navigation File Add Start -->
+<?php
+  require('main-nav-links.php');
+?>
+<!-- Navigation File Add End -->
 <!-- Hero Section Start -->
 <div class="hero-section">
 	<h2>Core Site</h2>
