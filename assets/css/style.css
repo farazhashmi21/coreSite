@@ -136,6 +136,29 @@ a:active{
 	color: pink;
 	font-size: 20px;
 }
+.services-body {
+	width: 500px;
+}
+.contact-button-service {
+	background-color: green;
+	color: white !important;
+	padding: 2%;
+	display: block;
+	text-align: center;
+}
+.services-main-body {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	gap: 2%;
+}
+.center-heading-service {
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	align-content: center;
+	padding: 2%;
+}
 @media only screen and (max-width: 500px){
 	.grid-header{
 		display: block;
