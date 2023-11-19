@@ -1,10 +1,20 @@
 <!DOCTYPE html>
+<!--
+	WordPress Official Website: https://wordpress.org/
+	WordPress Developer Tutorials: https://developer.wordpress.org/
+	WordPress block editor: https://wordpress.org/documentation/article/wordpress-block-editor/
+	Wordpress Documentation: https://wordpress.org/documentation/
+	Vs Code Official WebSite: https://code.visualstudio.com/
+	Vs Code Documentation: https://code.visualstudio.com/docs/
+	Vs Code Extensions: https://marketplace.visualstudio.com/VSCode
+-->
+
 <html lang="en-US">
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Core Site</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style-grid.css"/>
 </head>
 <body onLoad = "displ();">
 	<!-- Header Start -->
