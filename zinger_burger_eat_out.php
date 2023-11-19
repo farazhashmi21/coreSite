@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 <body class="bg-dark text-light">
+    <?php
+    require('main-nav-links.php');
+    ?>
     <!-- Main Title -->
     <div class="container-fluid text-center">
         <header class="bg-dark pt-5 pb-5">
